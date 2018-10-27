@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "crosshatch-kernel",
+    "target_path": "kernel/google/marlin"
+  }
+]
