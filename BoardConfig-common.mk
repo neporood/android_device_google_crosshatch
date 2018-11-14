@@ -42,6 +42,7 @@ BOARD_KERNEL_CMDLINE += cgroup.memory=nokmem
 # STOPSHIP Bringup hack- no low power
 BOARD_KERNEL_CMDLINE += lpm_levels.sleep_disabled=1
 BOARD_KERNEL_CMDLINE += usbcore.autosuspend=7
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Inline kernel building
 KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
