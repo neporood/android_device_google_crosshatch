@@ -46,6 +46,7 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Inline kernel building
 KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
+TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/google/bluecross
 TARGET_KERNEL_CONFIG := b1c1_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
