@@ -17,4 +17,4 @@ PRODUCT_MODEL := Pixel XL 3
 TARGET_MANUFACTUER := Google
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
-$(call inherit-product-if-exists, vendor/google_devices/crosshatch/crosshatch-vendor.mk)
+$(call inherit-product-if-exists, vendor/google/crosshatch/crosshatch-vendor.mk)
