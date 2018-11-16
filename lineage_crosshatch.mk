@@ -17,4 +17,10 @@ PRODUCT_MODEL := Pixel XL 3
 TARGET_MANUFACTUER := Google
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=crosshatch \
+    PRIVATE_BUILD_DESC="crosshatch-user 9 PQ1A.181105.017.A1 5081125 release-keys"
+
+BUILD_FINGERPRINT=google/crosshatch/crosshatch:9/PQ1A.181105.017.A1/5081125:user/release-keys \
+    
 $(call inherit-product-if-exists, vendor/google/crosshatch/crosshatch-vendor.mk)
