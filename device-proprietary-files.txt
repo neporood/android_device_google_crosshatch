@@ -40,7 +40,13 @@ lib/lib-imsvtutils.so
 lib/librcc.so
 
 # Permissions #
+etc/permissions/com.qualcomm.qti.imscmservice.xml
+etc/permissions/lpa.xml
+etc/permissions/LteDirectDiscovery.xml
 etc/permissions/privapp-permissions-google.xml
+etc/permissions/RemoteSimlock.xml
+etc/permissions/telephonyservice.xml
+etc/permissions/UimService.xml
 
 # RIL #
 -framework/embmslibrary.jar
